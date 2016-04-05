@@ -1,8 +1,8 @@
 <?php
-$photoImage = ImageCreateFromJPEG('000.jpg');
+$photoImage = ImageCreateFromJPEG('main.jpg');
 imagealphablending($photoImage, true);
 
-$logoImage = ImageCreateFromPNG('3.png');
+$logoImage = ImageCreateFromPNG('sub-image.png');
 $logoW = ImageSX($logoImage);
 $logoH = ImageSY($logoImage);
 
